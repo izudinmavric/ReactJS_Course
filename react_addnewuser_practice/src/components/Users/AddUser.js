@@ -6,11 +6,10 @@ import Wrapper from "../Helpers/Wrapper";
 import classes from "./AddUser.module.css";
 
 const AddUser = (props) => {
-  const nameInputRef = useRef();
-  const ageInputRef = useRef();
-
   // const [enteredUsername, setEnteredUsername] = useState("");
   // const [enteredAge, setEnteredAge] = useState("");
+  const nameInputRef = useRef();
+  const ageInputRef = useRef();
   const [error, setError] = useState();
 
   const addUserHandler = (event) => {
